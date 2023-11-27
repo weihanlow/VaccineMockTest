@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         ClinicSetup NHS = new ClinicSetup();
         VaccineAppointments system = new VaccineAppointments();
-        Patient JM = new Patient("John Molecules");
+        Patient JM = new Patient("John Mobius");
         Patient JB = new Patient("Jill Biomedenhall");
 
         JM.Register(NHS.Moderna,NHS.Epping);
@@ -12,6 +12,5 @@ public class Main {
 
         system.getAppointment(JM);
         system.getAppointment(JB);
-
     }
 }

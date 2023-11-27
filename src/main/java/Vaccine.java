@@ -1,14 +1,9 @@
-public class Vaccine {
-
-    public final String name;
-
-    private final int daysBetweenDoses;
+public class Vaccine extends Drug{
 
     private final Clinic vaccineOrigin;
 
     public Vaccine(String name, int daysBetweenDoses, Clinic vaccineOrigin) {
-        this.name = name;
-        this.daysBetweenDoses = daysBetweenDoses;
+        super(name, daysBetweenDoses);
         this.vaccineOrigin = vaccineOrigin;
     }
 
