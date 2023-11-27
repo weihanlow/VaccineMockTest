@@ -5,8 +5,6 @@ public class ClinicSetup {
     public final Vaccine Pfizer = new Vaccine("Pfizer",5, Southall);
 
     public ClinicSetup() {
-        Epping.getInventory().add(Moderna);
-        Southall.getInventory().add(Pfizer);
     }
 }
 
