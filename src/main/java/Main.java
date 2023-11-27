@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) {
         ClinicSetup NHS = new ClinicSetup();
-        Appointments system = new Appointments();
+        VaccineAppointments system = new VaccineAppointments();
         Patient JM = new Patient("John Molecules");
         Patient JB = new Patient("Jill Biomedenhall");
 
